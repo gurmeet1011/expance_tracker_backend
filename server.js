@@ -3,7 +3,6 @@ import express from "express";
 import bodyParser from "body-parser";
 import cors from "cors";
 import path from "path";
-import cors from 'cors';
 app.use(cors());
 
 import router from "./router/transaction-router.js";
